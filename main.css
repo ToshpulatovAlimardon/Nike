@@ -1,3 +1,9 @@
+/* All */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Body */
 body {
     background-image: url("./images/bacg.jpg");
@@ -6,13 +12,99 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'PT Serif', serif;
 }
 /* Nike content */
 .nike-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100vh;
 }
 /* Nike box */
 .nike-box {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    padding: 50px 30px 30px;
+}
+/* Nike images */
+.nike-images {
+    margin-right: 15px;
+}
+    .nike-box .nike-images img {
+        width: 450px;
+    }
+    .nike-box .nike-size h2{
+        color: #0065DC;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .nike-box .nike-size span{
+        color: #0065DC;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 8px 15px;
+        border: 1px solid #0065DC;
+        transition: all .3s ease;
+    }
+    .nike-box .nike-size span:hover,
+    .nike-box .nike-size span:focus {
+        color: #fff;
+        background-color: #0065DC;
+    }
+/* Nike des */
+.nike-des h3 {
+    color: #0065DC;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.nike-des h2 {
+    color: #111;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.nike-des span {
+    color: #0065DC;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.nike-des p {
+    color: #111;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.nike-des a {
+    color: #fff;
+    background-color: #0065DC;
+    border: 1px solid #0065DC;
+    border-radius: 10px;
+    padding: 11px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    transition: all .3s ease;
+    font-weight: 400;
+}
+.nike-des a:hover,
+.nike-des a:focus {
+    background-color: #fff;
+    color: #0065DC;
 }
