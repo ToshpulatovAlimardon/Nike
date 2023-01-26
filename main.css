@@ -52,6 +52,7 @@ body {
         padding: 8px 15px;
         border: 1px solid #0065DC;
         transition: all .3s ease;
+        cursor: pointer;
     }
     .nike-box .nike-size span:hover,
     .nike-box .nike-size span:focus {
